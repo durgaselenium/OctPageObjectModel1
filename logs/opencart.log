@@ -1,0 +1,36 @@
+2025-09-25 12:34:38 INFO  ElementUtil:125 - element is found using : By.linkText: Forgotten Password
+2025-09-25 12:34:39 INFO  ElementUtil:125 - element is found using : By.tagName: h2
+2025-09-25 12:34:39 INFO  ElementUtil:362 - waiting for element using By locator: By.id: input-email within time out: 10
+2025-09-25 12:34:40 INFO  ElementUtil:48 - entering the value : anu@111 into locator: By.id: input-password
+2025-09-25 12:34:40 INFO  ElementUtil:125 - element is found using : By.id: input-password
+2025-09-25 12:34:41 INFO  ElementUtil:63 - clicking on element using : By.xpath: //input[@value='Login']
+2025-09-25 12:34:41 INFO  ElementUtil:125 - element is found using : By.xpath: //input[@value='Login']
+2025-09-25 12:34:41 INFO  ElementUtil:362 - waiting for element using By locator: By.xpath: (//a[text()='Logout'])[2] within time out: 10
+2025-09-25 12:34:43 INFO  ElementUtil:125 - element is found using : By.xpath: (//a[text()='Logout'])[2]
+2025-09-25 12:37:23 INFO  ElementUtil:125 - element is found using : By.linkText: Forgotten Password
+2025-09-25 12:37:24 INFO  ElementUtil:125 - element is found using : By.tagName: h2
+2025-09-25 12:37:24 INFO  ElementUtil:362 - waiting for element using By locator: By.id: input-email within time out: 10
+2025-09-25 12:37:25 INFO  ElementUtil:48 - entering the value : anu@111 into locator: By.id: input-password
+2025-09-25 12:37:25 INFO  ElementUtil:125 - element is found using : By.id: input-password
+2025-09-25 12:37:26 INFO  ElementUtil:63 - clicking on element using : By.xpath: //input[@value='Login']
+2025-09-25 12:37:26 INFO  ElementUtil:125 - element is found using : By.xpath: //input[@value='Login']
+2025-09-25 12:37:27 INFO  ElementUtil:362 - waiting for element using By locator: By.xpath: (//a[text()='Logout'])[2] within time out: 10
+2025-09-25 12:37:27 INFO  ElementUtil:125 - element is found using : By.xpath: (//a[text()='Logout'])[2]
+2025-09-25 12:42:05 INFO  ElementUtil:125 - element is found using : By.linkText: Forgotten Password
+2025-09-25 12:42:06 INFO  ElementUtil:125 - element is found using : By.tagName: h2
+2025-09-25 12:42:06 INFO  ElementUtil:362 - waiting for element using By locator: By.id: input-email within time out: 10
+2025-09-25 12:42:07 INFO  ElementUtil:48 - entering the value : anu@111 into locator: By.id: input-password
+2025-09-25 12:42:07 INFO  ElementUtil:125 - element is found using : By.id: input-password
+2025-09-25 12:42:08 INFO  ElementUtil:63 - clicking on element using : By.xpath: //input[@value='Login']
+2025-09-25 12:42:08 INFO  ElementUtil:125 - element is found using : By.xpath: //input[@value='Login']
+2025-09-25 12:42:09 INFO  ElementUtil:362 - waiting for element using By locator: By.xpath: (//a[text()='Logout'])[2] within time out: 10
+2025-09-25 12:42:10 INFO  ElementUtil:125 - element is found using : By.xpath: (//a[text()='Logout'])[2]
+2025-09-25 13:33:29 INFO  ElementUtil:125 - element is found using : By.linkText: Forgotten Password
+2025-09-25 13:33:29 INFO  ElementUtil:125 - element is found using : By.tagName: h2
+2025-09-25 13:33:30 INFO  ElementUtil:362 - waiting for element using By locator: By.id: input-email within time out: 10
+2025-09-25 13:33:31 INFO  ElementUtil:48 - entering the value : anu@111 into locator: By.id: input-password
+2025-09-25 13:33:31 INFO  ElementUtil:125 - element is found using : By.id: input-password
+2025-09-25 13:33:32 INFO  ElementUtil:63 - clicking on element using : By.xpath: //input[@value='Login']
+2025-09-25 13:33:32 INFO  ElementUtil:125 - element is found using : By.xpath: //input[@value='Login']
+2025-09-25 13:33:33 INFO  ElementUtil:362 - waiting for element using By locator: By.xpath: (//a[text()='Logout'])[2] within time out: 10
+2025-09-25 13:33:34 INFO  ElementUtil:125 - element is found using : By.xpath: (//a[text()='Logout'])[2]
