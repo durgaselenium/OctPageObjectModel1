@@ -60,41 +60,41 @@ public void setUp(@Optional("chrome") String browserName) {
 }
 
 
-//   @AfterMethod // will be running after each @test method
-//   public void attachScreenshot(ITestResult result) {
+   @AfterMethod // will be running after each @test method
+   public void attachScreenshot(ITestResult result) {
 	
-//	 if (!result.isSuccess()) {// only for failure test cases -- true
-//		ChainTestListener.embed(DriverFactory.getScreenshotFile(), "image/png");
-//	 }
+	 if (!result.isSuccess()) {// only for failure test cases -- true
+		ChainTestListener.embed(DriverFactory.getScreenshotFile(), "image/png");
+	 }
 
-//	 //ChainTestListener.embed(DriverFactory.getScreenshotFile(), "image/png");
+	 //ChainTestListener.embed(DriverFactory.getScreenshotFile(), "image/png");
 
-//  }
+  }
 
-@AfterMethod
-public void attachScreenshot(ITestResult result) {
-    if (!result.isSuccess()) {
-        try {
-            File screenshot = DriverFactory.getScreenshotFile();
+//@AfterMethod
+//public void attachScreenshot(ITestResult result) {
+//    if (!result.isSuccess()) {
+ //       try {
+//            File screenshot = DriverFactory.getScreenshotFile();
 
-            // Unique file name with test name + thread id
-            String reportPath = System.getProperty("user.dir") + "/target/chaintest/resources/";
-            File destDir = new File(reportPath);
-            if (!destDir.exists()) {
-                destDir.mkdirs();
-            }
+ //           // Unique file name with test name + thread id
+ //           String reportPath = System.getProperty("user.dir") + "/target/chaintest/resources/";
+ //           File destDir = new File(reportPath);
+ //           if (!destDir.exists()) {
+ //               destDir.mkdirs();
+ //           }
+//
+ //           String fileName = result.getName() + "_thread" + Thread.currentThread().getId() + ".png";
+  //          File destFile = new File(destDir, fileName);
+//
+//            FileUtil.copyFile(screenshot, destFile);  // copy screenshot
+ //           ChainTestListener.embed(destFile, "image/png"); // attach to ChainTest
 
-            String fileName = result.getName() + "_thread" + Thread.currentThread().getId() + ".png";
-            File destFile = new File(destDir, fileName);
-
-            FileUtil.copyFile(screenshot, destFile);  // copy screenshot
-            ChainTestListener.embed(destFile, "image/png"); // attach to ChainTest
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-}
+ //       } catch (IOException e) {
+ //           e.printStackTrace();
+ //       }
+//    }
+//}
 
 
 @Description("closing the browser...")
