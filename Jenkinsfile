@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // 👉 Replace below with your GitHub repo
-                git 'https://github.com/YourGitHubUsername/YourProjectRepo.git'
+                git 'https://github.com/durgaselenium/OctPageObjectModel1.git'
             }
         }
 
